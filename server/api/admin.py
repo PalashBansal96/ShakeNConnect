@@ -1,9 +1,11 @@
 from django.contrib import admin
-from api.models import Pin
+from api.models import *
 
 # Register your models here.
 
-admin.site.register(Pin)
+Models = [Pin, Shake, Handshake]
+
+admin.site.register(Models)
 
 
 

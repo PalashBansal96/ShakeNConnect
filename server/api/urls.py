@@ -9,4 +9,7 @@ urlpatterns = patterns('',
     url(r'^amb/$', 'api.views.amb', name='api'),
     url(r'^reg/$', 'api.views.reg', name='reg'),
     url(r'^shake/$', 'api.views.shake', name='shake'),
+    url(r'^upd/$', 'api.views.findhandshakes', name='cron'),
+    url(r'^req/$', 'api.views.req', name='possible'),
+    url(r'^fin/$', 'api.views.fin', name='final'),
 )

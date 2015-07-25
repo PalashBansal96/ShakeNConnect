@@ -18,7 +18,20 @@ class Shake(models.Model):
 	fingerprint = models.ForeignKey(Pin)
 	lat = models.TextField()
 	lon = models.TextField()
-	timestamp = models.TextField()
+	timestamp = models.BigIntegerField()
 
 	def __unicode__(self):
-		return lat+lon
+		return self.lat + " " + self.lon
+
+class Handshake(models.Model):
+	user1 = models.ForeignKey(Pin, related_name = 'one')
+	user2 = models.ForeignKey(Pin, related_name = 'two')
+	lat = models.TextField()
+	lon = models.TextField()	
+	address = models.TextField()
+	timestamp = models.TextField()
+	u1check = models.IntegerField(default=0)
+	u2check = models.IntegerField(default=0)
+
+	def __unicode__(self):
+		return self.user1.name + " " + self.user2.name
