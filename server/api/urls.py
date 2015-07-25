@@ -6,7 +6,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'server.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    (r'^', include('api.urls')),
-    url(r'^admin/', include(admin.site.urls)),
-	
+    url(r'^amb/$', 'api.views.amb', name='api'),
+    url(r'^reg/$', 'api.views.reg', name='reg'),
+    url(r'^shake/$', 'api.views.reg', name='reg'),
 )
