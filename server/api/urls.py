@@ -8,5 +8,5 @@ urlpatterns = patterns('',
 
     url(r'^amb/$', 'api.views.amb', name='api'),
     url(r'^reg/$', 'api.views.reg', name='reg'),
-    url(r'^shake/$', 'api.views.reg', name='reg'),
+    url(r'^shake/$', 'api.views.shake', name='shake'),
 )

@@ -18,7 +18,7 @@ class Shake(models.Model):
 	fingerprint = models.ForeignKey(Pin)
 	lat = models.TextField()
 	lon = models.TextField()
-	timestamp = models.TimeField()
+	timestamp = models.TextField()
 
 	def __unicode__(self):
 		return lat+lon
