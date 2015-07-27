@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D9031380-D858-3F07-EF86-DF5567BC95B9}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\RegisterScript.cs" />
+     <Compile Include="Assets\compo.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Examples\Scripts\04 - RadioButton\Example04.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Examples\Scripts\05 - Sliders\Example05.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Examples\Scripts\xx - SelectionBoxes\RefreshSelectionBox.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\Anim.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ButtonInteractableControl.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\CheckBoxToggler.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\CheckboxConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\CheckboxFillerControl.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ColorCopier.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\DialogBoxConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\EZAnim.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\FPSCounter.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\InputFieldConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\MaterialGlobals.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\MaterialUIScaler.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\MaterialUIVersion.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\MenuArrowAnim.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\NavDrawerConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\RadioConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\RectTransformSnap.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\RippleAnim.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\RippleConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\RippleControl.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ScreenConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ScreenManager.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\SelectionBoxConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\SelectionBoxSubscriber.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\SelectionListItemConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ShadowAnim.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ShadowConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ShadowGen.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ShadowSnap.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\SliderConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\SnapButtonToText.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\SpriteSwapper.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\SwitchConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\TextInputLine.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ToastAnim.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ToastControl.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\Toaster.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ToggleConfig.cs" />
+     <Compile Include="Assets\material\MaterialUI-master\Scripts\ToggleTextChanger.cs" />
+     <Compile Include="Assets\spawn.cs" />
+     <None Include="Assets\material\MaterialUI-master\Fonts\NOTICE.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
